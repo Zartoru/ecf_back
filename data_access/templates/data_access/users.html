@@ -1,0 +1,38 @@
+{% extends 'data_access/base.html' %}
+
+{% block title %} Users {% endblock %}
+
+{% block body %}
+    {% for user in users %}
+        {% if user.id == 1 %}
+            <h3>user avec l'id 1:</h3>
+            {{user.email}}
+            {{user.roles}}
+            {{user.email}}
+            {{user.firstname}}
+            {{user.lastname}}
+            {{user.phone}}
+            {{user.school_year}}
+        {% endif %}
+    {% endfor %}
+    <br>
+    {% for user in users %}
+        {% if user.roles == '["ROLE_ADMIN"]' %}
+            <h3>user avec l'id 1:</h3>
+            {{user.id}}
+            {{user.email}}
+            {{user.email}}
+            {{user.firstname}}
+            {{user.lastname}}
+            {{user.phone}}
+            {{user.school_year}}
+        {% endif %}
+    {% endfor %}
+    <br>
+    <h3>Liste des users</h3>
+    {% for user in users %}
+        {{user.firstname}} {{user.lastname}}
+        <br>
+    {% endfor %}
+
+{% endblock body %}

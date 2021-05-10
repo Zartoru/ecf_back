@@ -1,17 +1,20 @@
 {% extends 'data_access/base.html' %}
 
-{% block title %} Index {% endblock %}
+{% block title %} School Years {% endblock %}
 
 {% block body %}
-    oui
+    <h3>liste des school years</h3>
     {% for school_year in school_years %}
-        <h1>{{school_year.name}}</h2>
+        {{school_year.name}}
+        <br>
     {% endfor %}
 
     {% for school_year in school_years %}
         {% if school_year.id == 1 %}
-            School year avec l'id 1:
-            <h2>{{school_year.name}}</h2>
+            <h3>School year avec l'id 1:</h3>
+            {{school_year.name}}
+            {{school_year.date_start}}
+            {{school_year.date_end}}
         {% endif %}
     {% endfor %}
 {% endblock body %}
