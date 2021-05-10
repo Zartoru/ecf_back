@@ -1,0 +1,17 @@
+{% extends 'data_access/base.html' %}
+
+{% block title %} Index {% endblock %}
+
+{% block body %}
+    oui
+    {% for school_year in school_years %}
+        <h1>{{school_year.name}}</h2>
+    {% endfor %}
+
+    {% for school_year in school_years %}
+        {% if school_year.id == 1 %}
+            School year avec l'id 1:
+            <h2>{{school_year.name}}</h2>
+        {% endif %}
+    {% endfor %}
+{% endblock body %}

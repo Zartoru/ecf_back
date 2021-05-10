@@ -38,7 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'ecf_bdd.apps.EcfBddConfig'
+    'ecf_bdd.apps.EcfBddConfig',
+    'data_access.apps.DataAccessConfig'
 ]
 
 MIDDLEWARE = [
