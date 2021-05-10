@@ -43,10 +43,15 @@ Copier le contenu de data_indisp.sql dans la fenetre de requete de ecf_bdd sur p
 
 copier le contenu de data.sql dans la fenetre de requete sql de la base de données sur pma
 
-#### Pour lancer le serveur de dev et se connecter a l'interface d'admin:
+## Pour lancer le serveur de dev et se connecter a l'interface d'admin:
 
 [python3 manage.py createsuperuser]
 
 [pyhton3 manage.py runserver]
 
 ceci permettra de se connecter a l'interface d'admin de django en rajoutant "/admin" a la fin de l'url
+
+les adresses pour acceder aux données sont:
+(ip)/schoolyears
+(ip)/projects
+(ip)/users
