@@ -1,10 +1,10 @@
--- school_year
+-- SchoolYear
 INSERT INTO ecf_bdd_schoolyear VALUES
 (NULL, 'Gyps fulvus', '2001/1/1', '2002/1/1'),
 (NULL, 'Nyctereutes procyonoides', '2002/1/1', '2003/1/1'),
 (NULL, 'Isoodon obesulus', '2003/1/1', '2004/1/1');
 
--- usr
+-- User
 INSERT INTO ecf_bdd_user VALUES
 (NULL, 'nstollenhof0@paginegialle.it', '["ROLE_STUDENT"]', 'rzeuR1nS', 'Nonie', 'Stollenhof', '469-296-1196', 2),
 (NULL, 'rdegregorio1@independent.co.uk', '["ROLE_STUDENT"]', 'r6xQR4', 'Roz', 'De Gregorio', '502-852-5198', 2),
@@ -89,7 +89,7 @@ INSERT INTO ecf_bdd_user VALUES
 (NULL, 'jbarbeyd@about.me', '["ROLE_CLIENT"]', 'ZvTxCmAprdE4', 'Jacinda', 'Barbey', '1905322612', NULL),
 (NULL, 'whallitte@ustream.tv', '["ROLE_CLIENT"]', 'S0JzfPcvodtb', 'Worth', 'Hallitt', '5105490579', NULL);
 
--- project
+-- Project
 INSERT INTO ecf_bdd_project VALUES
 (NULL, 'Twimbo', 'Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.'),
 (NULL, 'Yotz', 'Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus. Phasellus in felis. Donec semper sapien a libero. Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius. Integer ac leo. Pellentesque ultrices mattis odio.'),
