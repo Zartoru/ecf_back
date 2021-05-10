@@ -1,0 +1,5 @@
+[client]
+database = "ecf_bdd"
+user = "nom"
+password = "password"
+default-character-set = utf8
